@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Cabeçalho do site */
+header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #fff;
+    height: 25vh;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: multiply;
+    background: url(../images/dplsf.svg) 0 /cover no-repeat;
+    background-size: 700px;
+    background-position: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 150px;
+    color: #efefef;
+    text-shadow: 1px 1px 0 #ccc, 2px 2px 0 #c9c9c9, 3px 3px 0 #bbb, 4px 4px 0 #b9b9b9, 5px 5px 0 #aaa, 6px 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 1px 1px 3px rgba(0, 0, 0, .3), 3px 3px 5px rgba(0, 0, 0, .2), 5px 5px 10px rgba(0, 0, 0, .25), 10px 10px 10px rgba(0, 0, 0, .2), 20px 20px 20px rgba(0, 0, 0, .15);
+    color: #e0eff2;
+    text-shadow: 5px 7px 0 #0a0e27, 7px 9px 0 #ffc04c;
+}
+
+/* Menu */
+.navigation {
+    list-style: none;
+    margin: 0;
+    background: #e59400;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.navigation a:hover {
+    background: #996300;
+}
+
+/* Hot news 
+.hot {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #fff;
+    min-height: 300px;
+    background-blend-mode: multiply;
+    border: 1px solid black;
+    margin: 40px 100px;
+}
+
+.row {
+    flex-direction: column;
+    border: 1px solid black;
+    background-blend-mode: multiply;
+    display: flex;
+}
+
+.card {
+    width: 554px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    overflow: hidden;
+} */
